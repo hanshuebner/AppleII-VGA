@@ -34,7 +34,7 @@ void render_test_init() {
 
     // Get Pico's Flash Serial Number (Board ID) and terminating null.
     memcpy(error_message + 736, "         ", 8);
-    pico_get_unique_board_id_string(error_message + 744, 17);
+ //   pico_get_unique_board_id_string(error_message + 744, 17);
     memcpy(error_message + 760, "         ", 8);
 }
 
